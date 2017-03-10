@@ -1,7 +1,7 @@
 def square_array(array)
-sqrt = []
+squared = []
 array.each do |x|
-  sqrt.push(x ** 2)
+  squared.push(x ** 2)
 end
-  return sqrt
+  return squared
 end
