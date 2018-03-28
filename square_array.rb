@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
+  array.each {|x| array.push(array.shift**2)}
 end
