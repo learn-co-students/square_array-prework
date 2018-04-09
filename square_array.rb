@@ -5,3 +5,5 @@ def square_array(array)
   end
   blank
 end
+
+#review this lesson for .map and .collect methods please!
