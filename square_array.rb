@@ -1,10 +1,9 @@
-require 'pry'
 
 def square_array(array)
   # your code here
+  updated_array = []
   array.each do |x|
-     x ** 2
+    updated_array.push(x ** 2)
   end
+  return updated_array
 end
-
-square_array([1,2,3])
