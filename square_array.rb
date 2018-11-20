@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  
+  newArr = []
+  for i in array
+  i.each do
+  newArr.push(Math.sqrt(i))
+  puts newArr
+end
 end
