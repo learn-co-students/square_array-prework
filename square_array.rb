@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  subArray = []
+  array.each {|n| subArray << (n * n)}
+  subArray
 end
