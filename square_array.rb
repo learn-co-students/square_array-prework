@@ -1,3 +1,13 @@
 def square_array(array)
-  # your code here
+  squares = []
+  array.each do |x|
+    squares << x**2
+  end
+  squares
 end
+
+=begin 
+array.collect do |x| 
+    x**2 
+  end
+=end
