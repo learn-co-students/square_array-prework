@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+ ar2 = []
+ array.each do | x |
+   ar2.push(x*x)
+end
+ar2
 end
