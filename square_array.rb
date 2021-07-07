@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+roger = []
+array.each{|x| roger << x ** 2 }
+roger
 end
