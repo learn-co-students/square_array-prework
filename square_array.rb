@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  blank = []
+  array.each do |x|
+    blank.push(x * x)
+  end
+  blank
 end
+
+#review this lesson for .map and .collect methods please!
